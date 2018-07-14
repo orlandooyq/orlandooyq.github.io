@@ -112,12 +112,12 @@
 <meta name="keywords" content="hexo,Github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Github+Hexo建站(Mac)">
-<meta property="og:url" content="http://yoursite.com/2018/07/05/Github-Hexo建站(Mac)/index.html">
+<meta property="og:url" content="http://www.ouyangqing.net/2018/07/05/Github-Hexo建站(Mac)/index.html">
 <meta property="og:site_name" content="欧阳的博客">
 <meta property="og:description" content="前言几年来，建立自己的个人博客网站这条标签在我脑子里若隐若现，一直没有去实现。现在正好有时间，且有相当详细的教程如下，终于可以叉掉这条标签。 参考 GitHub+Hexo 搭建个人网站详细教程 Mac上搭建基于GitHub的Hexo博客 | 与佳期的个人博客 Markdown 语法说明(简体中文版) MarkDown技巧：两种方式实现页内跳转 - JohnTsai - 博客园  目录 配置环境 安">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://image.gonghonglou.com/firstblog/hexo4000.png">
-<meta property="og:updated_time" content="2018-07-06T06:55:02.575Z">
+<meta property="og:updated_time" content="2018-07-06T08:03:25.400Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github+Hexo建站(Mac)">
 <meta name="twitter:description" content="前言几年来，建立自己的个人博客网站这条标签在我脑子里若隐若现，一直没有去实现。现在正好有时间，且有相当详细的教程如下，终于可以叉掉这条标签。 参考 GitHub+Hexo 搭建个人网站详细教程 Mac上搭建基于GitHub的Hexo博客 | 与佳期的个人博客 Markdown 语法说明(简体中文版) MarkDown技巧：两种方式实现页内跳转 - JohnTsai - 博客园  目录 配置环境 安">
@@ -128,7 +128,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/05/Github-Hexo建站(Mac)/"/>
+  <link rel="canonical" href="http://www.ouyangqing.net/2018/07/05/Github-Hexo建站(Mac)/"/>
 
 
 
@@ -287,7 +287,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/05/Github-Hexo建站(Mac)/">
+    <link itemprop="mainEntityOfPage" href="http://www.ouyangqing.net/2018/07/05/Github-Hexo建站(Mac)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Orlando">
@@ -346,7 +346,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-06 14:55:02" itemprop="dateModified" datetime="2018-07-06T14:55:02+08:00">2018-07-06</time>
+                <time title="修改时间：2018-07-06 16:03:25" itemprop="dateModified" datetime="2018-07-06T16:03:25+08:00">2018-07-06</time>
               
             
           </span>
@@ -475,7 +475,22 @@
 </ul>
 </li>
 </ul>
-<h1 id="安装theme"><a href="#安装theme" class="headerlink" title="安装theme"></a><h4 id="4">安装theme</h4></h1><h1 id="绑定个人域名"><a href="#绑定个人域名" class="headerlink" title="绑定个人域名"></a><h5 id="5">绑定个人域名</h5></h1>
+<h1 id="安装theme"><a href="#安装theme" class="headerlink" title="安装theme"></a><h4 id="4">安装theme</h4></h1><ul>
+<li>更多官方主题请戳Hexo官网主题页。这里以hexo-theme-next为例</li>
+<li>终端cd到 blog 目录</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<ul>
+<li>将blog目录下_config.yml里theme的名称landscape修改为next</li>
+<li>终端cd到blog目录下执行如下命令(每次部署文章的步骤) </li>
+<li>hexo clean //清除缓存文件 (db.json) 和已生成的静态文件 (public)</li>
+<li>hexo g //生成缓存和静态文件</li>
+<li>hexo d //重新部署到服务器</li>
+<li>附：<a href="http://theme-next.iissnan.com" target="_blank" rel="noopener">NexT 使用文档</a> </li>
+<li>更改theme内容，修改 blog/_config.yml 文件和 blog/themes/next/_config.yml 文件中对应的属性名称即可。</li>
+<li>不要忘记冒号:后加空格。<h1 id="绑定个人域名"><a href="#绑定个人域名" class="headerlink" title="绑定个人域名"></a><h5 id="5">绑定个人域名</h5></h1></li>
+</ul>
+
       
     </div>
 
